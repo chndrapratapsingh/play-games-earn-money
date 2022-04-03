@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: system-ui;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding:0.5rem 1rem;
+	box-shadow: 0 0 0 0 black;
+	background-color: #646ddb;
+}
+
+header h2{
+	color: white;
+	font-size: 2rem;
+	font-weight: 800;
+}
+
+header ul{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+
+header ul li a{
+	text-decoration: none;
+	padding-left: 0.8rem;
+	font-size: 1.2rem;
+	color: white;
+	font-weight: 500;
+}
+
+#main{
+	height: 90vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#cards{
+	height: 70vh;
+    width: 70vh;
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vh;
+}
+.card{
+	height: 22vh;
+	width: 22vh;
+	background-color: black;
+	color: white;
+	font-size: 6rem;
+}
+
+#cards button{
+	border: none;
+}
